@@ -1,0 +1,48 @@
+*{margin:0;padding:0}
+ul{list-style: none}
+html{font-size:100px;}
+a{text-decoration: none}
+p {margin:0; padding:0}
+body{font-size:20px;}
+#global{  width:100%;
+    height:0.5rem;
+    position:fixed;  left:0;bottom:0;
+    font-size:0.3rem;
+    text-align: center;
+    line-height: 0.5rem;
+
+}
+
+
+.header{position:fixed;top:0;left:0;width:100%;font-size:0.16rem}
+.header h2{color:white;line-height: 0.56rem;padding-left:24px;font-size:0.20rem;font-weight: normal;background-color: #ce3d3d;height:0.54rem}
+.header ul{display:flex;height:0.48rem;background-color: #fff}
+.header ul li{flex-grow:1;text-align: center;line-height: 46px;height:46px;color:#666;font-size:0.17rem;}
+.active{color:red;border-bottom: 2px solid #ce3d3e;}
+
+#tabcontainer{padding-top:1rem}
+.auto{width:100%}
+
+.tj{font-size:0.24rem;line-height:36px;}
+.songlist{display: flex;flex-wrap: wrap}
+.songlist .item{width:30%;margin:0 1.5%;position: relative}
+.songlist .item p{font-size:0.14rem;}
+.songlist .model{font-size:0.14rem;position: absolute;left:0;top:0;background:rgba(0,0,0,.5);width:100%;color:white;}
+.songlist .model span{text-align: right}
+
+#musicList{  font-size:16px;padding:0 35px;  }
+#musicList li{  padding:10px 0 10px 0;margin-bottom: 20px;border-bottom:1px solid #ccc ;position: relative; }
+#musicList li span{background-size: cover;width:45px;height:45px;position: absolute;right:20px;top:0px;}
+#musicList li span.yes{background-image: url(../images/static/gz_gray.png)}
+#musicList li span.no{background-image: url(../images/static/gz_red.png)}
+
+#btn{
+    width:50px;height:50px;position: absolute;right:0;top:0;background-size: cover;
+}
+.play{  background-image: url(../images/static/playbar_btn_pause.png);}
+.pause{  background-image: url(../images/static/playbar_btn_play.png);}
+
+.prev{
+    color:#fff;width:100%;height:0.5rem;background-color:rgba(255,0,0,1);position: fixed;line-height:0.5rem;padding-left:0.2rem;text-align: left;z-index:10;
+}
+.singer:hover{border-bottom:1px solid green}
